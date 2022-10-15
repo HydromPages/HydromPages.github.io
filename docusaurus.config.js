@@ -10,14 +10,14 @@ const codeBlockSnippetsPlugin = require('./src/remark/code-block-snippets').plug
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Oasis Network Documentation',
+  title: 'Hydrom User Documentation',
   tagline: '',
-  url: process.env.URL ?? 'https://docs.oasis.io',
+  url: process.env.URL ?? 'https://hydrompages.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'oasisprotocol', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  organizationName: 'HydromPages', // Usually your GitHub org/user name.
+  projectName: 'hydrompages.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   presets: [
@@ -30,7 +30,6 @@ const config = {
           editUrl: editUrlFunction,
           exclude: ['adrs/README.md', 'adrs/0000-architectural-decision-records.md', 'adrs/template.md'],
           numberPrefixParser: false,
-          path: 'docs',
           beforeDefaultRemarkPlugins: [codeBlockSnippetsPlugin],
           remarkPlugins: [crossRepoLinksPlugin],
           routeBasePath: '/',
@@ -75,14 +74,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Oasis Docs',
+        title: 'Hydrom Instruction',
         logo: {
-          alt: 'OPF Logo',
+          alt: 'Hydrom Logo',
           src: 'img/logo.png',
         },
         items: [
           {
-            label: 'Use Oasis',
+            label: 'Use Hydrom',
             to: '/general/',
             activeBaseRegex: '/general/',
             position: 'left',
@@ -118,18 +117,18 @@ const config = {
             activeBaseRegex: `/core/`,
           },
           {
-            href: 'https://github.com/oasisprotocol',
+            href: 'https://github.com/Hydromprotocol',
             position: 'right',
             className: 'header-github-link',
             title: 'GitHub repository',
             'aria-label': 'GitHub repository',
           },
           {
-            href: 'https://oasisprotocol.org/',
+            href: 'https://Hydromprotocol.org/',
             position: 'right',
             className: 'header-www-link',
-            title: 'Oasis Protocol Foundation website',
-            'aria-label': 'Oasis Protocol Foundation website',
+            title: 'Hydrom Protocol Foundation website',
+            'aria-label': 'Hydrom Protocol Foundation website',
           },
         ],
       },
@@ -141,21 +140,21 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/pJdWeVtmHT',
+                href: 'https://discord.gg/xxx',
               },
             ],
           },
           {
-            title: 'Watch us',
+            title: 'Shop',
             items: [
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UC35UFPcZ2F1wjPxhPrSsESQ',
+                label: 'Shop',
+                href: 'https://hydrom.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Oasis Protocol Foundation. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bonorum UG. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -169,3 +168,4 @@ const config = {
 };
 
 module.exports = config;
+
