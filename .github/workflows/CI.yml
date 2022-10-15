@@ -10,5 +10,5 @@ jobs:
         with:
           source-folder: website
           git-user: $HydromPages
-          git-password: ${{ secrets.GITHUB_TOKEN }}
+          git-password: ${{ secrets._GITHUB_TOKEN }}
           deployment-branch: Deployment
