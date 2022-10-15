@@ -9,6 +9,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+.nojekyll
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hydrom Instructions',
