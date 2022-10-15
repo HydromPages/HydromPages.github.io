@@ -145,16 +145,16 @@ const config = {
             ],
           },
           {
-            title: 'Watch us',
+            title: 'Shop',
             items: [
               {
-                label: 'Youtube',
-                href: 'https://www.youtube.com/channel/UC35UFPcZ2F1wjPxhPrSsESQ',
+                label: 'Shop',
+                href: 'https://hydrom.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Hydrom Protocol Foundation. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Bonorum UG. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
