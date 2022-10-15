@@ -22,7 +22,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
 
-    locales:['en', 'fr', 'pt-BR', 'ko', 'zh-CN'],
+    locales:['en', 'de', 'it', 'es', 'fr', 'nl', 'pt', 'sw', 'fi'],
   },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
