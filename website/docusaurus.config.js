@@ -22,15 +22,7 @@ const config = {
   i18n: {
     defaultLocale: 'en',
 
-    locales:
-      isDeployPreview || isBranchDeploy
-        ? // Deploy preview and branch deploys: keep them fast!
-          ['en']
-        : isI18nStaging
-        ? // Staging locales: https://docusaurus-i18n-staging.netlify.app/
-          ['en', 'ja']
-        : // Production locales
-          ['en', 'fr', 'pt-BR', 'ko', 'zh-CN'],
+    locales:['en', 'fr', 'pt-BR', 'ko', 'zh-CN'],
   },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
