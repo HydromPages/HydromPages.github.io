@@ -11,9 +11,9 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Hydrom Instructions',
+  tagline: 'The tagline Hydrom Instructions',
+  url: 'https://hydrompages.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -21,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'hydrompages.github.io', // Usually your GitHub org/user name.
+  projectName: 'HydromPages.github.io', // Usually your repo name.
 
   presets: [
     [
