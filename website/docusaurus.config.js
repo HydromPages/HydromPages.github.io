@@ -1,24 +1,29 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @format
+ */
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-const editUrlFunction = require('./src/editUrl.js').editLinkUrl
-const crossRepoLinksPlugin = require('./src/remark/cross-repo-links');
-const codeBlockSnippetsPlugin = require('./src/remark/code-block-snippets').plugin;
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hydrom User Documentation',
-  tagline: '',
-  url: process.env.URL ?? 'https://hydrompages.github.io',
+  title: 'Hydrom Instructions',
+  tagline: 'The tagline Hydrom Instructions',
+  url: 'https://hydrompages.github.io',
   baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
-  organizationName: 'HydromPages', // Usually your GitHub org/user name.
-  projectName: 'hydrompages.github.io', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: 'hydrompages.github.io', // Usually your GitHub org/user name.
+  projectName: 'HydromPages.github.io', // Usually your repo name.
 
   presets: [
     [
@@ -26,109 +31,48 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          breadcrumbs: false,
-          editUrl: editUrlFunction,
-          exclude: ['adrs/README.md', 'adrs/0000-architectural-decision-records.md', 'adrs/template.md'],
-          numberPrefixParser: false,
-          beforeDefaultRemarkPlugins: [codeBlockSnippetsPlugin],
-          remarkPlugins: [crossRepoLinksPlugin],
-          routeBasePath: '/',
-          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
-  plugins: [
-    function (context, options) {
-      return {
-        name: 'webpack-configuration-plugin',
-        configureWebpack(config, isServer, utils) {
-          return {
-            resolve: {
-              symlinks: false,
-            }
-          };
-        }
-      };
-    },
-    [
-      '@docusaurus/plugin-client-redirects',
-      require('./redirects.js'),
-    ],
-  ],
-  themes: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        indexBlog: false,
-        docsRouteBasePath: '/',
-      },
-    ],
-  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Hydrom Instruction',
+        title: 'My Meta Project',
         logo: {
-          alt: 'Hydrom Logo',
-          src: 'img/logo.png',
+          alt: 'My Meta Project Logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
-            label: 'Use Hydrom',
-            to: '/general/',
-            activeBaseRegex: '/general/',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
+            label: 'Tutorial',
           },
+          {to: 'blog', label: 'Blog', position: 'left'},
+          // Please keep GitHub link to the right for consistency.
           {
-            label: 'Get Involved',
-            to: '/get-involved/',
-            position: 'left',
-            activeBaseRegex: `/get-involved/`,
-          },
-          {
-            label: 'Run Node',
-            to: '/node/',
-            activeBaseRegex: '/node/',
-            position: 'left',
-          },
-          {
-            label: 'Create dApp',
-            to: '/dapp/',
-            activeBaseRegex: '/dapp/',
-            position: 'left',
-          },
-          {
-            label: 'Build ParaTime',
-            to: '/paratime/',
-            activeBaseRegex: '/paratime/',
-            position: 'left',
-          },
-          {
-            label: 'Develop Core',
-            to: '/core/',
-            position: 'left',
-            activeBaseRegex: `/core/`,
-          },
-          {
-            href: 'https://github.com/Hydromprotocol',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
             position: 'right',
-            className: 'header-github-link',
-            title: 'GitHub repository',
-            'aria-label': 'GitHub repository',
-          },
-          {
-            href: 'https://Hydromprotocol.org/',
-            position: 'right',
-            className: 'header-www-link',
-            title: 'Hydrom Protocol Foundation website',
-            'aria-label': 'Hydrom Protocol Foundation website',
           },
         ],
       },
@@ -136,36 +80,82 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Support',
+            title: 'Learn',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/xxx',
+                label: 'Style Guide',
+                to: 'docs/',
+              },
+              {
+                label: 'Second Doc',
+                to: 'docs/doc2',
               },
             ],
           },
           {
-            title: 'Shop',
+            title: 'Community',
             items: [
               {
-                label: 'Shop',
-                href: 'https://hydrom.io',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: 'blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            // Please do not remove the privacy and terms, it's a legal requirement.
+            items: [
+              {
+                label: 'Privacy',
+                href: 'https://opensource.fb.com/legal/privacy/',
+              },
+              {
+                label: 'Terms',
+                href: 'https://opensource.fb.com/legal/terms/',
+              },
+              {
+                label: 'Data Policy',
+                href: 'https://opensource.fb.com/legal/data-policy/',
+              },
+              {
+                label: 'Cookie Policy',
+                href: 'https://opensource.fb.com/legal/cookie-policy/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Bonorum UG. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-        additionalLanguages: ['rust', 'toml'],
-      },
-      colorMode: {
-        respectPrefersColorScheme: true,
+        logo: {
+          alt: 'Meta Open Source Logo',
+          // This default includes a positive & negative version, allowing for
+          // appropriate use depending on your site's style.
+          src: '/img/meta_opensource_logo_negative.svg',
+          href: 'https://opensource.fb.com',
+        },
+        // Please do not remove the credits, help to publicize Docusaurus :)
+        copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
       },
     }),
 };
 
 module.exports = config;
-
