@@ -19,7 +19,19 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   trailingSlash: false,
+  i18n: {
+    defaultLocale: 'en',
 
+    locales:
+      isDeployPreview || isBranchDeploy
+        ? // Deploy preview and branch deploys: keep them fast!
+          ['en']
+        : isI18nStaging
+        ? // Staging locales: https://docusaurus-i18n-staging.netlify.app/
+          ['en', 'ja']
+        : // Production locales
+          ['en', 'fr', 'pt-BR', 'ko', 'zh-CN'],
+  },
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'hydrompages.github.io', // Usually your GitHub org/user name.
@@ -66,6 +78,10 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+
+          },
+          {
+            type: 'localeDropdown',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
