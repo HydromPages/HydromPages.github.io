@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Documente
+# Create a Documenten
 
 Documents are **groups of pages** connected through:
 
