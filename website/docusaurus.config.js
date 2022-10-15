@@ -9,8 +9,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-.nojekyll
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hydrom Instructions',
@@ -20,6 +18,7 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
