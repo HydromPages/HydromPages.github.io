@@ -11,9 +11,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  Prepare:
-    name: Prepare Generator
-    runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     concurrency:
@@ -40,19 +39,12 @@ jobs:
           key: ${{ runner.os }}-website-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-website-
-
       - run: yarn install --frozen-lockfile
       - run: yarn build
-          
-  Test:
-    name: Deploy
-    needs: Prepare
-    runs-on: ubuntu-latest
-    steps:
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./website/build
-    
