@@ -1,0 +1,18 @@
+{
+    "title": "Anleitung",
+    "description": "Hydrom",
+    "author": "Tjorben Eberle",
+    "output.name": "site",
+    "language": "de",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "structure": {
+        "readme": "SUMMARY.md"
+    },
+    "plugins": [
+        "hints",
+        "url-embed"
+    ],
+    "pluginsConfig": {
+    }
+}
