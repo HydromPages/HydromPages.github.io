@@ -4,10 +4,148 @@
         <title>Hydrom Instructions Blog</title>
         <link>https://hydrompages.github.io/pt/blog</link>
         <description>Hydrom Instructions Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt</language>
+        <item>
+            <title><![CDATA[Advantages of the Hydrom]]></title>
+            <link>https://hydrompages.github.io/pt/blog/Advantages-Hydrom</link>
+            <guid>Advantages-Hydrom</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This product is designed, programmed, assembled and tested in Germany.]]></description>
+            <content:encoded><![CDATA[<p>This product is designed, programmed, assembled and tested in Germany.
+Read here why the Hydrom is ahead of the competition.</p><p>When it comes to hydrometers, you want to make sure that you can find something that is going to be effective and efficient in measuring the specific gravity of the liquid that is going to be fermented. These devices have been around for a while, but most of them do not have the required features and accuracy that is needed in the modern hobby brewery.
+Sometimes a product can come along and completely eclipse the other existing options and Hydrom has become the ultimate hydrometer for those who seek optimal results from their investment. This is the reason why we find it essential to give you some of the main reasons why this hydrometer should be your choice for your brew setup.
+How does Hydrom stand out from the existing devices?
+One of the most evident advantages that come from the use of the Hydrom is the practical standalone use as a measuring instrument. With that said, it can also be integrated into a network and this is possible without the need for any extra hardware to be added.
+The Hydrom was designed to support three different types of transmission protocols:</p><p>MQTT: This is the lightest form of communication that allows for bandwidth requirements to be at a bare minimum. It is ideal for machine-to-machine communication to take place smoothly.
+HTTP: Hyper Text Transfer Protocol allows for communication to take place and for data to be delivered fast
+TCP: Transmission Control Protocol is the standard for all communications that happen within a network.
+A short calibration phase makes the Hydrom
+This device uses a very powerful and simple calibration tool that is extremely reliable. The tool comes with a wizard that is going to provide a step-by-step guide on how to conduct the calibration process. This makes it extremely user-friendly and it avoids complicated tasks.
+Hydrom is also going to provide firmware updates via the web interface and this is a truly unique feature that is not available in other options. With that said, the other options provided by Hydrom can be found in other devices, but not in a single device as a one-solution-fits-all investment.
+For example, only Hydrom and Tilt offer Bluetooth connections, just as only Hydrom and iSpindel provide support for various cloud solutions without the need for any extra hardware to be added. In the same way, only Hydrom and iSpindel offer a web interface for settings.
+This means that Hydrom is the only Hydrometer in the market right now that offers all the required features for a reliable outcome. That makes it the most reliable and efficient product that can help you make this process easier and much more effective.</p><p>The advantages and features are:</p><p>Calibration Wizard
+Wlan (client mode)
+Wlan (access point mode)
+Bluetooth
+Custom MQTT-Messages
+Custom HTTP-Messages
+Custom TCP-Messages
+Soldered and programmed product
+Various cloud services are supported (without extra hardware)
+Local Network Solution possible
+Web interface for Settings
+Firmware update via web interface
+No obligation to cloud
+No constraints with cloud solutions
+One of the most appealing aspects of the Hydrom is the fact that it is not tied to any specific cloud solution. This is extremely important as it allows the buyer to keep using the device regardless of the cloud solutions used.
+Power consumption is kept to a minimum
+Another excellent feature of this particular solution is that it offers a high tech microcontroller that helps reduce the amount of energy that is consumed by the device. It also offers a second battery which is something that is not found in any of the other existing devices. Battery power is always a critical and very important aspect to consider.
+The disadvantages of other modern hydrometers
+In most cases, the hardware you purchase for this purpose is not going to be owned by you/your business. It will usually be owned by the cloud provider and the price of the service is likely to be much higher than expected.
+In most cases, the stability of the internet connection is going to be crucial for the device to work and this is going to create serious setbacks if the connection suffers from any downtime regardless of how short it is. This is a common scenario in many areas.
+Final thoughts
+Now that you have a better idea of the clear advantages offered by the Hydrom, it makes perfect sense to consider this purchase in order to ensure the highest quality measurements with the best connectivity and cloud independence.
+This product is designed, programmed, assembled, and tested in Germany.</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+        <item>
+            <title><![CDATA[Cloud compulsion and why it's a bad idea]]></title>
+            <link>https://hydrompages.github.io/pt/blog/Cloud-Constraints</link>
+            <guid>Cloud-Constraints</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Numerous cloud services can connect to this hydrometer, but none of them are mandatory for its operation. The use of free protocols such as HTTP/TCP and MQTT are implemented in order to allow the use of this Hydrometer to be as flexible as possible.]]></description>
+            <content:encoded><![CDATA[<p>Numerous cloud services can connect to this hydrometer, but none of them are mandatory for its operation. The use of free protocols such as HTTP/TCP and MQTT are implemented in order to allow the use of this Hydrometer to be as flexible as possible.
+This article explains why.</p><p>Property
+The hardware does not belong to you, but to the company of the cloud provider. If these cloud services are switched off then the product becomes an expensive burden.</p><p>Pricing
+Often cloud services are offered for free at first and when a dependency is established, the price is drastically increased.</p><p>Stability
+If the Internet is unstable or fails, the device will not work.</p><p>Flexibility
+When using open source protocols like MQTT, HTTP, TCP ect. any number of pereferia can be implemented</p><p>Data protection
+Due to the centralized storage of data, it can easily fall victim to data theft.</p><p>Lack of transparency
+Due to abstraction, it is no longer possible for a customer to see exactly where his data is located and how it is handled. Industry-specific requirements for securitychecks become very difficult to implement. This creates the basis for all the problems mentioned above. This aspect is largely blamed for the most extensive creditcard recall to date.</p><p>Mixing of customers/services/data
+By sharing resources, a commingling of customers, services and data takes place, whereby unequally classified assets are treated in the same way. If one assetloses its integrity, it can directly impact the other assets. Assurances by a vendor to enforce safe and secure handling of data often cannot be verified due to lack oftransparency.</p><p>Dependence on the vendor
+One is directly dependent on the service provider’s offering and quality. Service failures can have an immediate impact on productivity.</p><p>Difficulty of backups
+Creating backups could be significantly more difficult. Only with considerable effort can they be done independently. If one does not want to accept this, one isagain dependent on the provider for them. It is often difficult to implement this process competently and in compliance with industry/company-specific plans.</p><p>Difficulty with migration
+Due to complex dependencies and incompatibilities, switching to another provider can only be possible with a great deal of effort. The dependency on the partner leads to constant inertia. In the event of differences in cooperation, one is subject to the arbitrariness of the partner for a long time.</p><p>Legal personal responsibility
+A company cannot completely absolve itself of personal responsibility by outsourcing data and processes. Even a structured evaluation and review of the partneras well as a solid contractual agreement do not allow such an abdication of responsibility.</p><p>Central point of attack
+Although cloud computing is understood as distributed computing, this creates a central point of attack. The more mechanisms areoutsourced to a specific cloud, the more focused an attacker can be on this very construct. The compromise of the cloud theoretically results in the compromise ofall outsourced mechanisms. </p><p>Internet is necessary
+There are many brewing sites that don’t have internet, the garage, the garden shed, the pazelle or or or. The brewing progress should also be able to be tracked here</p><p>IT Security
+The ability to reload firmware at any time without the user's consent may lead to the introduction of malicious code into the network by a corrupted company, criminal employee or intruder.</p><p>We are living in times when technology has turned into an essential part of our existence and there are many services that make use of that technology in order to enhance our lives. The use of cloud technology is one of those outstanding technological advances that have proven to be very useful, but they can also become very restrictive.
+Today, we are going to talk about the cloud compulsion phenomenon and how this affects those who purchase hydrometers that use cloud technology exclusively from a specific operator.
+Modern gadgets and devices in the cloud
+Cameras, sensors, speakers, hydrometers, pretty much any type of modern device is connected to a cloud operator. The issue with this is that no one is ever going to be able to predict what will happen in the future and a cloud operator could close its doors without warning. This may not have been a common thing to see a few years ago, but the world has turned into a much more volatile and unpredictable place as far as the business landscape goes.
+The problem with this scenario is that the device that was connected exclusively to that particular cloud service is now completely unable to function. This is the principle of cloud compulsion and it can be a very serious issue that turns your investment on certain hardware choices into a useless pile of expensive paperweights.
+This is one of the reasons why consumers need to become more aware of this type of issue. It is essential to find ways to ensure that they can purchase gadgets and devices that are not restricted to any specific cloud operator or service. This is something that has translated into a serious loss for those who have relied on a specific cloud service for the connectivity of their hardware.
+Sometimes people are quick to jump into contracts with specific cloud service providers and they trust that their services will be available anytime they need them. Unfortunately, due to how volatile the modern world can be, this is not going to be so simple and the sudden disappearance of a cloud operator is not something that seems unlikely.
+Hydrom is the ultimate hydrometer solution with no cloud constraints
+Those who seek to own a versatile hydrometer that offers more features and flexibility than all existing competitors are going to find Hydrom to be the perfect choice. The trending IoT approach is to connect devices to specific could services providers and this creates a very limiting situation. This is the main reason why the other options available are not going to be as viable and reliable as Hydrom.
+Numerous cloud services can connect to this hydrometer, but none of them are mandatory for its operation. The use of free protocols such as HTTP/TCP and MQTT are implemented in order to allow the use of this Hydrometer to be as flexible as possible. With so many different cloud systems being able to connect to Hydrom, the longevity of the device is enhanced.
+The advantages of Hydrom are numerous and it is the only device in existence that combines features such as a calibration wizard, Wlan, Bluetooth, support from several cloud services, web interface for settings, MQTT, HTTP, TCP messages and much more.
+Hydrom reaches an even higher level of value thanks to the low energy consumption and the firmware updates that ensure the stability and reliability of the device. It also offers a higher capacity than competitor devices due to the second battery that allows for longer periods of use.
+This is the kind of product that gives the owner peace of mind regarding how long it will be functional. With such a unique and flexible approach, it is the most solid modern choice available. A truly powerful and highly efficient hydrometer.
+Final thoughts on the Hydrom Hydrometer
+Being that we have arrived into a whole new era in the modern world, it is important to be able to purchase items and devices that are going to be useful for as long as possible. This is going to be essential for those who seek to get the best results out of their investments.
+With that in mind, it makes perfect sense to consider the use of the Hydrom hydrometer due to how flexible it is when it comes to how it connects to cloud services.
+Check out the details on this powerful and innovative hydrometer that has proven to be one-step ahead of the existing competition!</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+        <item>
+            <title><![CDATA[Hydrom Vs. Float Vs. Tilt™]]></title>
+            <link>https://hydrompages.github.io/pt/blog/Comparison-competitors</link>
+            <guid>Comparison-competitors</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This product is designed, programmed, assembled and tested in Germany.]]></description>
+            <content:encoded><![CDATA[<p>This product is designed, programmed, assembled and tested in Germany.
+Read here why the Hydrom is ahead of the competition.</p><p>With the recent evolution of technology, the process of brewing has become much easy and more convenient. Intelligent and very smart sensors can be the difference between a good brew and a great one. A brewmaster always has priorities over a consistent and good-quality hydrometer, but choosing the correct device can be overwhelming.</p><p>“Brewing is an art, and all those who take an active interest in it can be regarded as artists.” Like all artists would go for the best sound system, below are the top brewing tools you can find on the market.</p><p>HYDROM</p><p>Hydrom is the BEST tool with unmatched features that every homebrewer would need to have accurate data. It's a fantastic digital brewing tool that measures accurately and functions perfectly. If you’re looking for that perfect and complete 21st technology brewing tool to get the most excellent hand-crafted beers with the perfect flavor and composition, then Hydrom is for you. Hydrom is fully assembled and doesn’t need cloud storage, but measures the SG value of your beer during fermentation and transmits the data through WiFi or Bluetooth.</p><p>It flawlessly combines the advantages of all free-floating hydrometers you can find in the market and is capable of taking your brewing game to the next level.</p><p>Its significance is much larger. It combines amazing features and performance with a design that should have it competing with and beating all other brewing tools on just about everything and the price.</p><p>Main features:</p><p>Full Calibration Wizard
+Bluetooth available
+WLAN (access point mode, Client Mode)
+Open interfaces (MQTT, TCP, http)
+Soldered and programmed product
+Various cloud services are supported (without extra hardware)
+Firmware update via web interface possible
+Pros:</p><p>Measures Density, Temperature, and Rate of Fermentation in real-time
+Bluetooth available (completely compatible with the Tilt Hydrometer)
+Does not need the internet
+Custom MQTT, HTTP, TCP, and Messages are available
+It has a clean and very intuitive user interface
+Most affordable hydrometer in the market
+Comes with a USBC charging socket which is is the latest tech and standard, supported by almost all laptops, mobile phones, and other manufacturer devices
+Cons:</p><p>The diameter of 50mm may be too large for some fermenters.
+Cannot be shipped to the USA for patent reasons.
+Not suitable for high pressures. (&gt;1bar/100 kPa)
+FLOAT</p><p>Float is a nice and affordable food-grade housing brewing tool to measure your fermentation activity, temperature, and SG value. It’s quite easy to use and very portable.</p><p>One great feature is that it doesn’t need to be stored in a storage solution. Simply a few drops of distilled water in the storage cap is all it needs to stay protected.</p><p>Main features:</p><p>Own logging platform
+WLAN (client mode)
+Chargeable Battery (micro USB)
+Pros:</p><p>Float easily connects to your WiFi network and stores all SG and temperature data in your free My Brewbrain account.
+Chargeable Battery (micro USB)
+Fairly cheap
+Cons:</p><p>The usability of the device depends on the business plan.
+If the servers are switched off, the device is dead
+Without the internet it is useless
+Inflexible with only one interface (WLAN with Internet)
+The data is collected centrally on the manufacturer's site.
+No backups possible.
+No simple switch to another platform
+New platforms cannot be added individually.
+Due to a lack of standards, there is no possibility to connect a service that is not yet supported.
+Outdated charging standard (almost 15 years old standard)
+TILT™</p><p>Unlike the two previous hydrometers, the hydrometer has a cylinder of its own production as a housing.
+Also, the Tilt™ itself is just an extension of a smartphone/tablet.
+So it does not have its own WiFi connection and thus cannot talk directly to the Cloudbackens.
+The next big difference is that the Tilt™ does not rely on rechargeable batteries but uses disposable batteries.
+Main features:</p><p>Compatible with any iOS/Android smartphone/tablet or Tilt Pi.
+Own Case
+Only Bluetooth available
+Different colors for monitoring multiple batches
+Disposable battery without charging possibility.
+Pros:</p><ul><li><p>Bluetooth available
+With the availability of a Bluetooth connectivity feature, the brewing process can be monitored anywhere within the Bluetooth range.</p></li><li><p>Simple transmission concept of the data (iBeacon)
+If Baron Brew Equipment LLC discontinues the product, it does not become useless for the customer</p></li><li><p>Own Case
+Cons:</p></li><li><p>Most expensive free Floating Hydrometer on market</p></li><li><p>Only Bluetooth available</p></li><li><p>Low range</p></li><li><p>In order to send the data to the Internet or Local Lan, an extra device must be purchased.</p></li><li><p>A maximum of 8 Devices can be used in parallel</p></li></ul>]]></content:encoded>
+            <category>hello</category>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://hydrompages.github.io/pt/blog/welcome</link>
@@ -15,38 +153,7 @@
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/pt/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>facebook</category>
             <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://hydrompages.github.io/pt/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:rgb(137, 221, 255)">=</span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:rgb(137, 221, 255)">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:rgb(130, 170, 255)">alert</span><span class="token punctuation" style="color:rgb(199, 146, 234)">(</span><span class="token string" style="color:rgb(195, 232, 141)">'button clicked!'</span><span class="token punctuation" style="color:rgb(199, 146, 234)">)</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:rgb(137, 221, 255)">!</span><span class="token operator" style="color:rgb(137, 221, 255)">&lt;</span><span class="token operator" style="color:rgb(137, 221, 255)">/</span><span class="token plain">button</span><span class="token operator" style="color:rgb(137, 221, 255)">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copiar código para a área de transferência" title="Copiar" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://hydrompages.github.io/pt/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://hydrompages.github.io/pt/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
         </item>
     </channel>
 </rss>
