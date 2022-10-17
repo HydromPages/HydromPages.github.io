@@ -1,5 +1,5 @@
 ---
-slug: Comparison-competitors
+slug: Comparison-competitors-Page 
 title: Hydrom Vs. Float Vs. Tilt™
 authors: eberle
 tags: [hello]
