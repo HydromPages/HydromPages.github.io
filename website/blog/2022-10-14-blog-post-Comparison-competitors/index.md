@@ -10,7 +10,7 @@ Read here why the Hydrom is ahead of the competition.
 
 <!--truncate-->
 
-![Banner comparison competitors](./FloatHydromTilt.jpeg)
+![Banner comparison competitors](./FloatHydromTilt.jpg)
 
 With the recent evolution of technology, the process of brewing has become much easy and more convenient. Intelligent and very smart sensors can be the difference between a good brew and a great one. A brewmaster always has priorities over a consistent and good-quality hydrometer, but choosing the correct device can be overwhelming.
 
