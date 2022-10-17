@@ -14,7 +14,7 @@ const config = {
   title: 'Hydrom Instructions',
   tagline: 'The tagline Hydrom Instructions',
   url: 'https://hydrompages.github.io',
-  baseUrl,
+  baseUrl: '/',
   baseUrlIssueBanner: true,
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -40,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HydromPages/HydromPages.github.io',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/HydromPages/HydromPages.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,9 +60,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Meta Project',
+        title: 'Hydrom',
         logo: {
-          alt: 'My Meta Project Logo',
+          alt: 'Hydrom Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -79,7 +79,7 @@ const config = {
           {to: 'blog', label: 'Blog', position: 'left'},
           // Please keep GitHub link to the right for consistency.
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/HydromPages/HydromPages.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -106,15 +106,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/xxx',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/xxx',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/xxx',
               },
             ],
           },
@@ -127,7 +127,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/HydromPages/HydromPages.github.io',
               },
             ],
           },
