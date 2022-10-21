@@ -48,7 +48,7 @@ Another way for more advanced users is the following:
 
 1. Connect to your router&#x20;
 2. find out which IP the Hydrom has been assigned.&#x20;
-3. open in the browser the address: http://\<IP-Adress>
+3. open in the browser the IP-address
 {% endtab %}
 
 
