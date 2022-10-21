@@ -13,7 +13,7 @@ coverY: 0
 
 ## Precondition
 
-{% hint style="success" %}
+:::tip
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
 
 In order to connect the Hydrom to Brewblox, a Brewblox server must first be set up.
@@ -21,7 +21,7 @@ In order to connect the Hydrom to Brewblox, a Brewblox server must first be set 
 {% embed url="https://brewblox.netlify.app/user/startup.html#what-you-will-need" %}
 A Pi with Brewblox was set up
 {% endembed %}
-{% endhint %}
+:::
 
 ## Adding Hydrom to BrewBlox
 

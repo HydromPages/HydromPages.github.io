@@ -13,13 +13,13 @@ description: >-
 
 If the Hydrom is in DeepSleep, the user interface is not accessible.&#x20;
 
-{% hint style="success" %}
+:::tip
 **Precondition:**
 
 The Hydrom must be switched on ([turn-on-the-hydrom.md](../../getting-started/establish-first-connection-to-the-hydrom/turn-on-the-hydrom.md "mention")). \
 It is recommended that the Hydrom is fully charged and/or set to configuration mode when charging. \
 This will save battery life.
-{% endhint %}
+:::
 
 1. To access configuration mode unscrewed the Lid and briefly press the Reset button once.
 2. The Hydrom will now start in configuration mode. \

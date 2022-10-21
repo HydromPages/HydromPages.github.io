@@ -11,14 +11,14 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to user interface**\
    To make this setting, you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
 2. **Access to an http-Server server/Cloud Service**.\
    An http-Server server has been set up or there is access to a cloud http-Server.
-{% endhint %}
+:::
 
 ## Datatransfer
 

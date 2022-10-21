@@ -8,10 +8,10 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondition:**\
 To Upload the Firmware you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 
 
@@ -34,20 +34,20 @@ You can download the updates from our download section, unzip the file and selec
 ### Step 4: Start the Update 
 Press the "Update"-Button to start the process.
 
-{% hint style="danger" %}
+:::important
 The Hydrom must be connected to a charger, otherwise the update will not start.&#x20;
 
 Connect the charger and charge the Hydrom.
-{% endhint %}
+:::
 
 This process may take a few minutes.
 
 
 
-{% hint style="info" %}
+:::info
 You will know that the Hydrom has installed the new firmware by the Hydrom shutting down and then going into DeepSleep mode (easily recognized by the status LEDs going out).&#x20;
 
 How to wake up the Hydrom can be found here:
 
 [#wakeup-the-hydrom](enable-deepsleep.md#wakeup-the-hydrom "mention")
-{% endhint %}
+:::

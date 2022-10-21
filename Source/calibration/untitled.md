@@ -2,9 +2,9 @@
 
 
 
-{% hint style="success" %}
+:::tip
 To check the Calibrationstatus you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 The easiest way to check the calibration status is to place the Hydrom in 25 degree water and access the main screen.
 

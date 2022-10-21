@@ -11,7 +11,7 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to user interface**\
@@ -20,7 +20,7 @@ coverY: 0
    An account has been created with the cloud provider Brewfather.
 3. **Brewfather App was downloaded**.\
    https://brewfather.app/
-{% endhint %}
+:::
 
 ## Add the hydrom to the Brewfather
 
@@ -53,9 +53,9 @@ Then the menu bar will open.
 
 On the "Service" page, the Brewfather service must be activated.
 
-{% hint style="warning" %}
+:::note
 It is important that you check if there is another URL in your hydrom. In the firmware up to 1.2.9 the wrong link \[/hydrom?id=xxxxxxxxxx] was used. Please replace the link with the link from the Brewfather UI \[/stream?id=XXXXXXX] as shown in the picture below.
-{% endhint %}
+:::
 
 ![The settings that are entered here are saved in the Hydrom](<../.gitbook/assets/Brewfather (2).png>)
 

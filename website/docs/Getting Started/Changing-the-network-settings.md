@@ -7,7 +7,7 @@ sidebar_position: 5
 
 
 
-{% hint style="danger" %}
+:::important
 ATTENTION! If you have entered incorrect information (wrong SSID, passwords etc.), you will not be able to connect to the Hydrom and you have to reset the Device.
 
 
@@ -15,7 +15,7 @@ ATTENTION! If you have entered incorrect information (wrong SSID, passwords etc.
 If the setting is incorrect, you can reset the Hydrom as described here:
 
 [#reset-by-the-button](../other-settings/factory-reset.md#reset-by-the-button "mention")
-{% endhint %}
+:::
 
 To change the network settings, open the navigation bar on the left side and select the "Wifi" option
 

@@ -8,12 +8,12 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondition:**\
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:
 
 [access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 ## Step 1: Open the Menue
 
@@ -33,13 +33,13 @@ To put the hydrom to sleep, there are two methods:
 1. If the hydrom is not used for 3min. it automatically goes to sleep
 2. If you want to put the Hydrom to sleep immediately, you can select "DeepSleep" in the navigation bar.
 
-{% hint style="info" %}
+:::info
 **Sleep time calculation**
 
 Currently the Hydrom needs 23sec. to start, set up the network, send out the readings.
 
 This means that for a constant transmission of data every 15min, you need to set a sleep time of 14min. 27sec.
-{% endhint %}
+:::
 
 ##
 

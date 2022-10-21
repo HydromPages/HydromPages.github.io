@@ -8,10 +8,10 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondiion:**\
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 ## Step 1: Open the Menue
 
@@ -38,11 +38,11 @@ Then the menu bar will open.
 * **Fahrenheit**
 * **Kelvin**
 
-{% hint style="info" %}
+:::info
 The set units do not affect the services.
 
 This means that the data sent will always be consistent, no matter what unit is set.
-{% endhint %}
+:::
 
 ### Save Settings
 

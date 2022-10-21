@@ -10,7 +10,7 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to user interface**\
@@ -19,7 +19,7 @@ coverY: 0
    An account has been created with the cloud provider Grainfather.
 3. **Grainfather App was downloaded**.\
    https://grainfather.com/brewing-app/
-{% endhint %}
+:::
 
 ## Step 1: Navigate to the Equipmentmanager
 

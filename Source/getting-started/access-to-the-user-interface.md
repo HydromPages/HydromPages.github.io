@@ -2,7 +2,7 @@
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondition:**
 
 1. The Hydrom must be powered on\
@@ -15,7 +15,7 @@
 
     If the Hydrom is in Deepsleep, it can be woken up according to the instructions on this page:\
     [wakeup-the-hydrom.md](../other-settings/enable-deepsleep/wakeup-the-hydrom.md "mention")
-{% endhint %}
+:::
 
 ## Connect to the Hydrom via browser
 
@@ -35,9 +35,9 @@ Access the WebUI in any browser at reach the following address [http://hydrom001
 
 If the name of the hydrom was changed, the hydrom must be reached under the newly selected name.
 
-{% hint style="warning" %}
+:::note
 It may be that your network infrastructure prohibits setting custom names. Then you have to use the alternative way mentioned below
-{% endhint %}
+:::
 
 Another way for more advanced users is the following:
 

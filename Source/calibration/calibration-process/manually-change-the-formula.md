@@ -6,9 +6,9 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../../getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 There are many ways to calculate the formula of the hydrometer.
 When a formula has been calculated, it can be entered under ("Calibration" --> "Custom Form") and saved with the button below.

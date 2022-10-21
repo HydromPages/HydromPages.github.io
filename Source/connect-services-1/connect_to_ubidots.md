@@ -11,7 +11,7 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to the user interface**\
@@ -19,7 +19,7 @@ coverY: 0
 2. **Ubidots user account available**\
    An account was created with the cloud provider ubidots. At the time of writing, there is a free account for non-commercial use.\
    https://industrial.ubidots.com/accounts/signup\_industrial/
-{% endhint %}
+:::
 
 ## Add the hydrom to Ubidots
 

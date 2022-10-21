@@ -6,7 +6,7 @@ description: >-
 
 # Plainwater-Methode
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. user interface access\
@@ -14,7 +14,7 @@ description: >-
    [access-to-the-user-interface.md](../../getting-started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.md "mention")
 2. equipment needed:
    1. water tank in which the hydrom can float.
-{% endhint %}
+:::
 
 1. place the hydrom in 25 degrees cold water and navigate to "Calibration
 2. Activate the "Plainwater method". 
