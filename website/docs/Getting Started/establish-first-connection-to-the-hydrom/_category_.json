@@ -1,0 +1,8 @@
+{
+  "label": "Establish first connection to the hydrom",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": ""
+  }
+}
