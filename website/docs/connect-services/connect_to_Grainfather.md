@@ -15,11 +15,11 @@ coverY: 0
 :::tip
 **Prerequisite:**
 
-1. **Access to user interface**
+1. **Access to user interface**  
    To make this setting, you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
-2. **Grainfather user account available**
+2. **Grainfather user account available**  
    An account has been created with the cloud provider Grainfather.
-3. **Grainfather App was downloaded**
+3. **Grainfather App was downloaded**  
    https://grainfather.com/brewing-app/
 :::
 

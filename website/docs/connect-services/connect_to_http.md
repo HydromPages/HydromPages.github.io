@@ -16,9 +16,9 @@ coverY: 0
 :::tip
 **Prerequisite:**
 
-1. **Access to user interface**
+1. **Access to user interface**  
    To make this setting, you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
-2. **Access to an http-Server server/Cloud Service**
+2. **Access to an http-Server server/Cloud Service**  
    An http-Server server has been set up or there is access to a cloud http-Server.
 :::
 
