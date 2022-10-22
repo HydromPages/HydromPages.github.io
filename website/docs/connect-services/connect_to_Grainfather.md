@@ -59,7 +59,7 @@ Important is that between "IOT" and "custom", the rest remains the same. The int
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
+![Open Navigation](../../docs/Pics/English_Pic5.png)
 
 ## Step 2: Select "Service" 
 

@@ -46,7 +46,7 @@ An example would be: {VALUE\_TILT\_P} --> 15.3\
 https://maker.ifttt.com/trigger/hydrom/with/key/clLb9jfjgngkdovIx?value1={VALUE_TILT_G}&value2={VALUE_TEMPERATURE_C}&value3={VALUE_BATTERY_PERCENTAGE}
 ```
 
-<figure><img src="../../docs/Pics/Webhook.png" alt=""><figcaption></figcaption></figure>
+![Enabled Bluetooth](../../docs/Pics/Webhook.png.png)
 
 ### via JSON
 
@@ -101,7 +101,7 @@ Sample content of the JSON:
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
+![Open Navigation](../../docs/Pics/English_Pic5.png)
 
 ## Step 2: Select "Service" 
 
@@ -109,7 +109,7 @@ Then the menu bar will open.
 
 On the "Service" page, the http-Server service must be activated.
 
-<figure><img src="../../docs/Pics/Webhook.png" alt=""><figcaption></figcaption></figure>
+![Enabled Bluetooth](../../docs/Pics/Webhook.png.png)
 
 ### additional settings
 

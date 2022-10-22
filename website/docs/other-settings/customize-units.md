@@ -20,7 +20,7 @@ To make this setting you must have access to the user interface. If this is not 
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
+![Open Navigation](../../docs/Pics/English_Pic5.png)
 
 ## Step 2: Select "Settings"
 

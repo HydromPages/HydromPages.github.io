@@ -47,7 +47,7 @@ Otherwise the Hydrom must still be started.
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
+![Open Navigation](../../docs/Pics/English_Pic5.png)
 
 ## Step 2: Select "Service" 
 
@@ -55,7 +55,7 @@ Then the menu bar will open.
 
 On the "Service" page, the Brewfather service must be activated.
 
-{% hint style="warning" %}
+:::info
 It is important that you check if there is another URL in your hydrom. In the firmware up to 1.2.9 the wrong link \[/hydrom?id=xxxxxxxxxx] was used. Please replace the link with the link from the Brewfather UI \[/stream?id=XXXXXXX] as shown in the picture below.
 :::
 

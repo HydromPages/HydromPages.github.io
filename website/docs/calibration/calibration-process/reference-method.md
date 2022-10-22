@@ -32,7 +32,7 @@ description: >-
 9. The formula is then calculated and the measured values and displayed in the table.
 10. Calibration is completed
 
-{% hint style="warning" %}
+:::info
 **IMPORTANT**\
 Please save the formula that was calculated for the calibration externally. If the hydrometer has to be reset, this formula will also be reset to the original value. There are 2 ways to save the formula:
 
