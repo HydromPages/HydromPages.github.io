@@ -11,7 +11,7 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 [firmware-update.md](other-settings/firmware-update.md)
 {% endcontent-ref %}
 
-{% file src=".gitbook/assets/firmware_1.2.16.bin" %}
+{% file src="../../docs/Pics/firmware_1.2.16.bin" %}
 
 ## Version 1.2.16 - 2022-4-05 <a href="#version-1.2.11-2022-2-10" id="version-1.2.11-2022-2-10"></a>
 
@@ -90,7 +90,7 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 
 
-{% file src=".gitbook/assets/firmware_1.2.11.bin" %}
+{% file src="../../docs/Pics/firmware_1.2.11.bin" %}
 
 ## Version 1.2.11 - 2022-2-10
 

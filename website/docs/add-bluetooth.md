@@ -35,7 +35,7 @@ The Hydrom will now send the following measured values via bluetooth after a res
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep. Hier findest du die Anleitu
 :::
 
-![Enabled Bluetooth](.gitbook/assets/Folie27.png)
+![Enabled Bluetooth](../../docs/Pics/Folie27.png)
 
 {% hint style="warning" %}
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep.
@@ -80,7 +80,7 @@ The powers with ascending transmission power:
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](.gitbook/assets/Save.png)
+![Pressing the "save" button saves the settings.](../../docs/Pics/Save.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
