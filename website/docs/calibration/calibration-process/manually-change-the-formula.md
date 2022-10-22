@@ -15,6 +15,6 @@ To make this setting you must have access to the user interface. If this is not 
 There are many ways to calculate the formula of the hydrometer.
 When a formula has been calculated, it can be entered under ("Calibration" --> "Custom Form") and saved with the button below.
 
-![](../../../docs/Pics/Calibration\_Adjust\_Formular.png)
+![](../../Pics/English_Pic41.png.png)
 
 &#x20;
