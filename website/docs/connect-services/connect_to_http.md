@@ -121,7 +121,9 @@ In order not to consume too much power, we would turn Bluetooth off when it is n
 
 
 :::info
-In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
+### activate DeepSleep
+
+Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
 :::
 
@@ -142,10 +144,5 @@ By activating this button, you can check whether the Hydrom has a connection to 
 
 ![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
 
-### activate DeepSleep
 
-Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
-
-
-[enable-deepsleep.md](../other-settings/enable-deepsleep.md)
 
