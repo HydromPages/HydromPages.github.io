@@ -63,16 +63,17 @@ It is important that you check if there is another URL in your hydrom. In the fi
 
 ### additional settings
 
-In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:
-
-
+:::info
+In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:  
 [add-bluetooth.md](../add-bluetooth.md)
+:::
 
 
+
+:::info
 In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
-
-
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
+:::
 
 
 ### Save Settings

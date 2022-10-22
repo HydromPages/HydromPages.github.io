@@ -65,18 +65,20 @@ The Hydrom then checks whether the address can be reached and if so, whether the
 
 ### additional settings
 
-In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:
-
-
+:::info
+In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:  
 [add-bluetooth.md](../add-bluetooth.md)
+:::
 
 
+
+:::info
 In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
-
-
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
+:::
 
 
+:::info
 ### Save Settings
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
@@ -86,6 +88,9 @@ Saving the data is important because it is the only way to connect to the servic
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
 A second way to check the saving is to reload the page (all modern browsers offer this Feature). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
+
+:::
+
 
 ### Send Test-message
 
