@@ -46,6 +46,7 @@ By default, the device name is "Hydrom001".
 
 ![Changing the device name of the hydrometer](../../docs/Pics/English_Pic16.png)
 
+:::info
 ### Save Settings
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
@@ -54,4 +55,6 @@ Saving the data is important because it is the only way to connect to the servic
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
-A second way to check the saving is to reload the page (all browsers offer this). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
+A second way to check the saving is to reload the page (all modern browsers offer this Feature). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
+
+:::

@@ -79,7 +79,6 @@ Activating DeepSleep is mandatory for the hydrom to be able to send data. If Dee
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
 :::
 
-
 :::info
 ### Save Settings
 
@@ -94,11 +93,13 @@ A second way to check the saving is to reload the page (all modern browsers offe
 :::
 
 
+:::info
 ### Send Test-message
 
 By activating this button, you can check whether the Hydrom has a connection to the service and to the individual parts of the service. If you now click on "Save", the set services are executed once and the page is reloaded. On the new page you can see whether the servers are accessible and the ports are open.
 
 ![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
+:::
 
 
 
