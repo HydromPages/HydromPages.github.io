@@ -34,7 +34,7 @@ There are two basic ways to connect the Hydrom to Brewblox.
 1. via WLAN  
    Assuming the Hydrom is on the same network as the Brewblox server, it is best to set it up via WLAN. How to do this is described in this manual.
 2. via Bluetooth  
-   If the Brewblox server is not in the WLAN and there is no access to a WLAN, the Hydrom can only be connected via Bluetooth. No instructions have yet been written for this. In principle, you can say, follow the instructions for the Tilt Hydrometer: [https://www.brewblox.com/user/services/tilt.html](https://www.brewblox.com/user/services/tilt.html)\
+   If the Brewblox server is not in the WLAN and there is no access to a WLAN, the Hydrom can only be connected via Bluetooth. No instructions have yet been written for this. In principle, you can say, follow the instructions for the Tilt Hydrometer: [https://www.brewblox.com/user/services/tilt.html](https://www.brewblox.com/user/services/tilt.html)  
    These instructions also apply 1:1 to the Hydrom.
 
 ## Configuring the Hydrom
