@@ -33,10 +33,10 @@ description: >-
 10. Calibration is completed
 
 :::info
-**IMPORTANT**\
+**IMPORTANT**
 Please save the formula that was calculated for the calibration externally. If the hydrometer has to be reset, this formula will also be reset to the original value. There are 2 ways to save the formula:
 
-1. download the Settings.json file.\
+1. download the Settings.json file  
    [Broken link](broken-reference "mention")
 2. note the formula which can be found under "Calibration" --> "Costum Form\
    [manually-change-the-formula.md](manually-change-the-formula.md "mention")

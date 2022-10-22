@@ -60,7 +60,7 @@ Then the menu bar will open.
 
 **Username / Password:** This field remains empty because Brewblox does not yet support MQTT with authentication.
 
-The two indicators next to the IP address of the server and the port of the server then turn green/red when a test message has been sent.\
+The two indicators next to the IP address of the server and the port of the server then turn green/red when a test message has been sent  
 The Hydrom then checks whether the address can be reached and if so, whether the destination port is open.
 
 ### additional settings
