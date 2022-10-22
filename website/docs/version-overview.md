@@ -13,13 +13,13 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 {% file src="../../docs/Pics/firmware_1.2.16.bin" %}
 
-## Version 1.2.16 - 2022-4-05 <a href="#version-1.2.11-2022-2-10" id="version-1.2.11-2022-2-10"></a>
+## Version 1.2.16 - 2022-4-05 
 
 ### &#x20;Fixed
 
 * Plainwater calibration was repaired.
 
-## Version 1.2.15 - 2022-4-03 <a href="#version-1.2.11-2022-2-10" id="version-1.2.11-2022-2-10"></a>
+## Version 1.2.15 - 2022-4-03 
 
 ### &#x20;Fixed
 
@@ -29,45 +29,44 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 
 
-## Version 1.2.14 - 2022-3-30 <a href="#version-1.2.11-2022-2-10" id="version-1.2.11-2022-2-10"></a>
+## Version 1.2.14 - 2022-3-30 
 
 ### Added
 
-* LED on when started in configuration mode \
+* LED on when started in configuration mode 
   The two LEDs are switched on immediately when the unit is started in configuration mode.
-* Wifi reset \
+* Wifi reset 
   If the reset button is pressed for longer than 3 seconds, the Hydrom is started with reset Wifi settings.
 
 ### &#x20;Fixed
 
-* Brewfather Server\&Port is now stored persistently. \
+* Brewfather Server\&Port is now stored persistently. 
   The Brewfather Server address & port has been made changeable.
 
-\
 
 
 ### Changed
 
 * Default Brewblox port changed from 91 to 1883
 
-## Version 1.2.13 - 2022-3-11 <a href="#version-1.2.11-2022-2-10" id="version-1.2.11-2022-2-10"></a>
+## Version 1.2.13 - 2022-3-11 
 
 ​​
 
-### Added <a href="#hinzugefuegt" id="hinzugefuegt"></a>
+### Added 
 
-* Energy saving: Dynamic WLAN transmission power \
+* Energy saving: Dynamic WLAN transmission power 
   The Hydrom first tries to send the message with a lower transmission power and then slowly increases it until the message has been sent.
-* Detection: Server reachable (in the service menu)\
+* Detection: Server reachable (in the service menu)
   If a test message has been sent, a red or green square is displayed behind the input window for the server address, depending on whether there is a connection or not. To test whether an Internet connection exists, "google.de" can be entered as the server This feature helps to find errors.
-* Detection: Port open on server (in service menu)\
+* Detection: Port open on server (in service menu)
   If a test message has been sent, a red or green square is displayed behind the input window for the port, depending on whether the port is open or not. This feature helps to find errors.
 
-### Fixed <a href="#behoben" id="behoben"></a>
+### Fixed 
 
 * Bluetooth transmission power had a spelling mistake
 
-### Changed <a href="#geaendert" id="geaendert"></a>
+### Changed 
 
 * Default setting Brewbox Username/Password is now empty.&#x20;
 * Bluetooth is deactivated by default&#x20;
@@ -79,12 +78,12 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 ### fixed
 
-*   Wrong values for Grainfather, Brewfather and Ubidots.\
+*   Wrong values for Grainfather, Brewfather and Ubidots.
 
 
-    Note on Ubidots: \
-    The provider only allows a certain number of variables per device. \
-    Deleting the variables that are not needed can prevent transmission artefacts.
+    Note on Ubidots:  
+    The provider only allows a certain number of variables per device.  
+    Deleting the variables that are not needed can prevent transmission artefacts.  
 
 
 
@@ -96,14 +95,14 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 ### Fixed
 
-* Reading the temperature more stable\
+* Reading the temperature more stable
   some customers had experienced unstable temperature values. A mechanism was installed that checks the temperature for plausibility and only accepts it if it is given.
 
 ## Version 1.2.10 - 2022-1-16
 
 ### Added
 
-* Parameter passing in the URL was introduced. \
+* Parameter passing in the URL was introduced. 
   Instruction you find here[#url-replacement-feature](../docs/connect-services/connect_to_http.md#url-replacement-feature "mention")
 
 ### Fixed

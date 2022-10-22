@@ -16,9 +16,9 @@ coverY: 0
 :::tip
 **Prerequisite:**
 
-1. **Access to user interface**\
+1. **Access to user interface**
    To make this setting, you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
-2. **Access to an http-Server server/Cloud Service**.\
+2. **Access to an http-Server server/Cloud Service**
    An http-Server server has been set up or there is access to a cloud http-Server.
 :::
 
@@ -28,7 +28,7 @@ coverY: 0
 
 If placeholders are used in the URL specified in the "URL", the hydrom will replace them with the current variables.
 
-An example would be: {VALUE\_TILT\_P} --> 15.3\
+An example would be: {VALUE\_TILT\_P} --> 15.3
 {VALUE\_TEMPERATURE\_C} --> 25.3
 
 * **{NAME\_DEVICE}** If this variable is used, the hydrom replaces this placeholder with the current name of the hydrom. Default: "Hydrom001
@@ -50,32 +50,32 @@ https://maker.ifttt.com/trigger/hydrom/with/key/clLb9jfjgngkdovIx?value1={VALUE_
 
 ### via JSON
 
-The hydrom sends, if you have activated "http", then the hydrom sends a JSON file to the path specified in the "URL". \
+The hydrom sends, if you have activated "http", then the hydrom sends a JSON file to the path specified in the "URL". 
 How the file looks like and what the parameters contain you can read here.
 
-* **name** \
-  Each device has the name "Hydrom001" by default. This name can be changed at any time to distinguish several devices from each other.\
-  [changing-the-hydrom-name.md](../other-settings/changing-the-hydrom-name.md "mention")\
+* **name**  
+  Each device has the name "Hydrom001" by default. This name can be changed at any time to distinguish several devices from each other  
+  [changing-the-hydrom-name.md](../other-settings/changing-the-hydrom-name.md "mention")
 
-* **angle** \
-  This reading is the raw reading of the slope of the hydrom without any processing.\
+* **angle**  
+  This reading is the raw reading of the slope of the hydrom without any processing  
 
-* **temperature** \
-  This value is the measured temperature in degrees Celsius.\
+* **temperature**  
+  This value is the measured temperature in degrees Celsius  
 
-* **temp\_units** \
-  A "C" for Celsius is sent here.\
+* **temp\_units**  
+  A "C" for Celsius is sent here  
 
-* **battery** \
-  Battery voltage in V\
+* **battery**  
+  Battery voltage in V
 
-* **gravity** \
-  If this variable is used, the Hydrom replaces this placeholder with the current battery level. The unit of this variable is Percent\
+* **gravity**  
+  If this variable is used, the Hydrom replaces this placeholder with the current battery level. The unit of this variable is Percent
 
-* **interval** \
-  The interval during which the measured values are sent (+ approx. 23s).\
+* **interval**  
+  The interval during which the measured values are sent (+ approx. 23s)  
 
-* **RSSI** \
+* **RSSI**  
   Wifi transmit power
 
 
@@ -98,7 +98,7 @@ Sample content of the JSON:
 
 ## Step 1: Open the Menue
 
-To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
+To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)
 Then the menu bar will open.
 
 ![Open Navigation](../../docs/Pics/English_Pic5.png)

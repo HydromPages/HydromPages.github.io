@@ -16,20 +16,20 @@ If the Hydrom is in DeepSleep, the user interface is not accessible.&#x20;
 :::tip
 **Precondition:**
 
-The Hydrom must be switched on ([turn-on-the-hydrom.md](../../Getting%20Started/establish-first-connection-to-the-hydrom/turn-on-the-hydrom.md "mention")). \
-It is recommended that the Hydrom is fully charged and/or set to configuration mode when charging. \
+The Hydrom must be switched on ([turn-on-the-hydrom.md](../../Getting%20Started/establish-first-connection-to-the-hydrom/turn-on-the-hydrom.md "mention")).   
+It is recommended that the Hydrom is fully charged and/or set to configuration mode when charging.   
 This will save battery life.
 :::
 
 1. To access configuration mode unscrewed the Lid and briefly press the Reset button once.
-2. The Hydrom will now start in configuration mode. \
-   This can be easily recognized by the fact that the status LEDs (green and red) flas constantly for 2 sec. and  then switch between green and red and end in green.\
+2. The Hydrom will now start in configuration mode.   
+   This can be easily recognized by the fact that the status LEDs (green and red) flas constantly for 2 sec. and  then switch between green and red and end in green.  
    Sequence:
    1. Green and red constantly for 2 sec.
-   2. switch between green and red for 4 sec.\
+   2. switch between green and red for 4 sec.  
       The Hydrom now loads all settings and starts up the individual modules.
-   3. constant green glowing LED\
-      The Hydrom has now built a web interface.\
+   3. constant green glowing LED  
+      The Hydrom has now built a web interface.  
 
 
 
