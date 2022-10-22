@@ -1,3 +1,8 @@
+---
+custom_edit_url: null
+sidebar_position: 7
+---
+
 # Firmware
 
 Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image installieren können, erfahren Sie hier:
