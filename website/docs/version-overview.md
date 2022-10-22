@@ -104,7 +104,7 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 ### Added
 
 * Parameter passing in the URL was introduced. \
-  Instruction you find here[#url-replacement-feature](connect-services-1/connect\_to\_http.md#url-replacement-feature "mention")
+  Instruction you find here[#url-replacement-feature](../docs/connect-services/connect_to_http.md#url-replacement-feature "mention")
 
 ### Fixed
 
