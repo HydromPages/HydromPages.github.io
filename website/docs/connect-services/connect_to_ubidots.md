@@ -17,7 +17,7 @@ coverY: 0
 **Prerequisite:**
 
 1. **Access to the user interface**\
-   To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
+   To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
 2. **Ubidots user account available**\
    An account was created with the cloud provider ubidots. At the time of writing, there is a free account for non-commercial use.\
    https://industrial.ubidots.com/accounts/signup\_industrial/

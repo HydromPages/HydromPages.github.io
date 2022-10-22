@@ -16,7 +16,7 @@ coverY: 0
 ## Precondition
 
 :::tip
-To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
+To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
 
 In order to connect the Hydrom to Brewblox, a Brewblox server must first be set up.
 

@@ -18,7 +18,7 @@ If the setting is incorrect, you can reset the Hydrom as described here:
 {% hint style="info" %}
 Changing the Hydrom name has the following effect:
 
-1. The user interface is not accessed via [http://hydrom001/](http://hydrom001) as described in the chapter[#connect-to-the-hydrom-via-browser](../getting-started/access-to-the-user-interface.md#connect-to-the-hydrom-via-browser "mention"), but now via http://\<own\_choosen\_name>/.
+1. The user interface is not accessed via [http://hydrom001/](http://hydrom001) as described in the chapter[#connect-to-the-hydrom-via-browser](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx#connect-to-the-hydrom-via-browser "mention"), but now via http://\<own\_choosen\_name>/.
 2.  Some of the services described in the chapter [Broken link](broken-reference "mention")now send to a different address.
 
     However, this is mentioned separately in the respective instruction article.
@@ -27,7 +27,7 @@ Changing the Hydrom name has the following effect:
 :::tip
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:
 
-[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
+[access-to-the-user-interface.md](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx "mention")
 :::
 
 ## Step 1: Open the Menue
