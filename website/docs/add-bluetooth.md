@@ -10,18 +10,20 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondition:**
 
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](getting-started/access-to-the-user-interface.md "mention")
-{% endhint %}
+:::
 
 ## Step 1: Open the Menue
 
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src=".gitbook/assets/Bilder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../F" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Step 2: Select "Service"
 
@@ -31,13 +33,13 @@ The Hydrom will now send the following measured values via bluetooth after a res
 
 {% hint style="warning" %}
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep. Hier findest du die Anleitu
-{% endhint %}
+:::
 
 ![Enabled Bluetooth](.gitbook/assets/Folie27.png)
 
 {% hint style="warning" %}
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep.
-{% endhint %}
+:::
 
 ## Choose UUID
 
