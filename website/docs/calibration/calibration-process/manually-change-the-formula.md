@@ -16,5 +16,3 @@ There are many ways to calculate the formula of the hydrometer.
 When a formula has been calculated, it can be entered under ("Calibration" --> "Custom Form") and saved with the button below.
 
 ![](../../Pics/English_Pic41.png)
-
-&#x20;
