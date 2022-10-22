@@ -9,7 +9,7 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 
 {% content-ref url="other-settings/firmware-update.md" %}
 [firmware-update.md](other-settings/firmware-update.md)
-{% endcontent-ref %}
+
 
 {% file src="../../docs/Pics/firmware_1.2.16.bin" %}
 

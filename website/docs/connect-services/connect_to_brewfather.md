@@ -30,11 +30,11 @@ coverY: 0
 
 Open the Brewfather app and navigate to the settings. There you activate the device "Custom Stream".
 
-![](<../../docs/Pics/Brewfather\_1 (1).png>) ![](<../../docs/Pics/Brewfather\_2 (1).png>)
+![](../../docs/Pics/English_Pic2.png) ![](../../docs/Pics/English_Pic3.png)
 
 ### Copy BrewFather ID
 
-![The marked parameter must be coupled into the hydrom.](../../docs/Pics/Brewfather\_3.png)
+![The marked parameter must be copied into the hydrom.](../../docs/Pics/English_Pic4.png)
 
 ## Insert BrewFather settings in Hydrom
 
@@ -59,21 +59,21 @@ On the "Service" page, the Brewfather service must be activated.
 It is important that you check if there is another URL in your hydrom. In the firmware up to 1.2.9 the wrong link \[/hydrom?id=xxxxxxxxxx] was used. Please replace the link with the link from the Brewfather UI \[/stream?id=XXXXXXX] as shown in the picture below.
 :::
 
-![The settings that are entered here are saved in the Hydrom](<../../docs/Pics/Brewfather (2).png>)
+![The settings that are entered here are saved in the Hydrom](../../docs/Pics/English_Pic1.png)
 
 ### additional settings
 
 In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:
 
-{% content-ref url="../add-bluetooth.md" %}
+
 [add-bluetooth.md](../add-bluetooth.md)
-{% endcontent-ref %}
+
 
 In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+
 
 ### Save Settings
 
@@ -95,6 +95,6 @@ By activating this button, you can check whether the Hydrom has a connection to 
 
 Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+

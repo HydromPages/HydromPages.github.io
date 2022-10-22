@@ -11,7 +11,7 @@ Insecure connection message
 
 The hydrom uses an http connection to connect to the user inter
 
-![](<../../docs/Pics/English_Pic34.png>)
+![](../../docs/Pics/English_Pic34.png)
 
-![](<../../docs/Pics/English_Pic35.png>)
+![](../../docs/Pics/English_Pic35.png)
 

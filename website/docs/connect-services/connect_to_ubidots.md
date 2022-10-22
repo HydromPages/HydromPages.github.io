@@ -68,15 +68,15 @@ On the "Service" page, the Ubidots service must be activated.
 
 In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:
 
-{% content-ref url="../add-bluetooth.md" %}
+
 [add-bluetooth.md](../add-bluetooth.md)
-{% endcontent-ref %}
+
 
 In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+
 
 ### Save Settings
 
@@ -98,6 +98,6 @@ By activating this button, you can check whether the Hydrom has a connection to 
 
 Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+
