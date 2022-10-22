@@ -21,7 +21,7 @@ To make this setting you must have access to the user interface. If this is not 
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../../F" alt=""><figcaption></figcaption></figure>
+<figure><img src="../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -35,9 +35,9 @@ The Hydrom will now send the following measured values via bluetooth after a res
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep. Hier findest du die Anleitu
 :::
 
-![Enabled Bluetooth](../../docs/Pics/Folie27.png)
+![Enabled Bluetooth](../docs/Pics/English_Pic27.png)
 
-{% hint style="warning" %}
+:::info
 The "test message" option is not available for Bluetooth. So you have to wait until the Hydrom wakes up from a deep sleep.
 :::
 
