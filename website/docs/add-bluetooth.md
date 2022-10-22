@@ -77,7 +77,7 @@ The powers with ascending transmission power:
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](../../docs/Pics/Save.png)
+![Pressing the "save" button saves the settings.](../docs/Pics/English_Pic6.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
@@ -87,6 +87,4 @@ A second way to check the saving is to reload the page (all browsers offer this)
 
 Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 
-{% content-ref url="other-settings/enable-deepsleep.md" %}
 [enable-deepsleep.md](other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
