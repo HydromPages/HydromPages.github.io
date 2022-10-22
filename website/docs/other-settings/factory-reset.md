@@ -1,6 +1,6 @@
 ---
 custom_edit_url: null
-sidebar_position: 1
+sidebar_position: 4
 description: >-
   The Hydrom can be reset with the reset button
 ---
