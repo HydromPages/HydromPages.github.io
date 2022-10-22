@@ -46,7 +46,7 @@ An example would be: {VALUE\_TILT\_P} --> 15.3\
 https://maker.ifttt.com/trigger/hydrom/with/key/clLb9jfjgngkdovIx?value1={VALUE_TILT_G}&value2={VALUE_TEMPERATURE_C}&value3={VALUE_BATTERY_PERCENTAGE}
 ```
 
-![Enabled Bluetooth](../../docs/Pics/Webhook.png.png)
+![Webhook](../../docs/Pics/English_Pic15.png)
 
 ### via JSON
 
@@ -109,21 +109,21 @@ Then the menu bar will open.
 
 On the "Service" page, the http-Server service must be activated.
 
-![Enabled Bluetooth](../../docs/Pics/Webhook.png.png)
+![Enabled Bluetooth](../../docs/Pics/English_Pic15.png)
 
 ### additional settings
 
 In order not to consume too much power, we would turn Bluetooth off when it is not needed. It was documented here:
 
-{% content-ref url="../add-bluetooth.md" %}
+
 [add-bluetooth.md](../add-bluetooth.md)
-{% endcontent-ref %}
+
 
 In order for the Hydrom to transmit the data reliably, a DeepSleep time must be set. This is documented on this page:
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+
 
 ### Save Settings
 
@@ -145,6 +145,6 @@ By activating this button, you can check whether the Hydrom has a connection to 
 
 Activating DeepSleep is mandatory for the hydrom to be able to send data. If DeepSleep is activated, the hydrom wakes up after the set time and sends the data to the set service. Afterwards, the hydrom goes back to sleep and waits for the new service.
 
-{% content-ref url="../other-settings/enable-deepsleep.md" %}
+
 [enable-deepsleep.md](../other-settings/enable-deepsleep.md)
-{% endcontent-ref %}
+

@@ -26,7 +26,7 @@ Then the menu bar will open.
 
 ## Step 3: Change Units
 
-![](../../docs/Pics/Units.png)
+![](../../docs/Pics/English_Pic17.png)
 
 ### Tilt
 
