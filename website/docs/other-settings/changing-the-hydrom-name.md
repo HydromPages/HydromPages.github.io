@@ -44,7 +44,7 @@ Then the menu bar will open.
 To change the device name, enter the new name under the "Devicename" lettering.\
 By default, the device name is "Hydrom001".
 
-![Changing the device name of the hydrometer](../../docs/Pics/DeviceName.png)
+![Changing the device name of the hydrometer](../../docs/Pics/English_Pic16.png)
 
 ### Save Settings
 

@@ -107,34 +107,34 @@ Activating DeepSleep is mandatory for the hydrom to be able to send data. If Dee
 
 In order to view the measured values of the Hydrom, a dashboard must first be created if one does not already exist.
 
-![Create Brewblox Dashboard](../../docs/Pics/Brewblox\_Server\_Hydrom\_new\_Dashboard.png)
+![Create Brewblox Dashboard](../../docs/Pics/English_Pic20.png)
 
 ### Add widget
 
 The measured values of the Hydrom can be visualised via a graph. To do this, a widget must first be created.
 
-![](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Select\_Dashboard\_Content (1).png>)
+![](../../docs/Pics/English_Pic21.png)
 
 ### Add graph
 
 Now add a graph to this widget
 
-![Select Graph as widget to visualise the readings of the Hydrom](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Widget\_Selection (1) (1) (1) (1).png>)
+![Select Graph as widget to visualise the readings of the Hydrom](../../docs/Pics/English_Pic22.png)
 
 Click on "Create" to create this widget.
 
-![Confirm selection](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Widget\_Graph (1).png>)
+![Confirm selection](../../docs/Pics/English_Pic23.png)
 
 ### Activating the Hydrom
 
 Adding the graph is not enough to display the measured values of the Hydrom. The measured values of the Hydrom do not have to be made visible. To do this, go to the top right corner and click on the two triangles to activate the settings of the graph.
 
-![Make settings of the graph](../../docs/Pics/Brewblox\_Server\_Hydrom\_Graph\_Settings.png)
+![Make settings of the graph](../../docs/Pics/English_Pic24.png)
 
 In the settings of the graph, the filter has to be activated. So practically, which measured values do I want to see. For clarity, it is recommended to activate only the required measured values here.
 
-![Activate the filters as needed](../../docs/Pics/Brewblox\_Server\_Hydrom\_Filter.png)
+![Activate the filters as needed](../../docs/Pics/English_Pic25.png)
 
 At the end you see at least the test measurement after which the hydrom was put to sleep but also the measured values in the set interval.
 
-![End result: The hydrom delivers measured values to the graph](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Graph (1) (1) (1) (1) (3).png>)
+![End result: The hydrom delivers measured values to the graph](../../docs/Pics/English_Pic26.png)
