@@ -12,14 +12,14 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to user interface**\
    To make this setting, you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
 2. **Access to an MQTT server**.\
    An MQTT server has been set up or there is access to a cloud MQTT server.
-{% endhint %}
+:::
 
 ## Collect the information from the MQTT interface
 
@@ -40,7 +40,7 @@ Otherwise the Hydrom must still be started.
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../.gitbook/assets/Bilder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Select "Service" 
 
@@ -48,7 +48,7 @@ Then the menu bar will open.
 
 On the "Service" page, the MQTT service must be activated.
 
-![The settings that are entered here are saved in the Hydrom](<../.gitbook/assets/MQTT\_ (1).png>)
+![The settings that are entered here are saved in the Hydrom](<../../docs/Pics/MQTT\_ (1).png>)
 
 **Server Adresse:** Name oder IP des MQTT Brokers
 
@@ -84,7 +84,7 @@ In order for the Hydrom to transmit the data reliably, a DeepSleep time must be 
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](../.gitbook/assets/Save.png)
+![Pressing the "save" button saves the settings.](../../docs/Pics/English_Pic6.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
@@ -94,7 +94,7 @@ A second way to check the saving is to reload the page (all modern browsers offe
 
 By activating this button, you can check whether the Hydrom has a connection to the service and to the individual parts of the service. If you now click on "Save", the set services are executed once and the page is reloaded. On the new page you can see whether the servers are accessible and the ports are open.
 
-![Sending a test message can greatly simplify the process of checking the connection.](../.gitbook/assets/TestMessage.png)
+![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
 
 ### activate DeepSleep
 

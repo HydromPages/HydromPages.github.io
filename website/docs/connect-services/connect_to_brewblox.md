@@ -15,7 +15,7 @@ coverY: 0
 
 ## Precondition
 
-{% hint style="success" %}
+:::tip
 To make this setting you must have access to the user interface. If this is not the case, see here how to do it:[access-to-the-user-interface.md](../getting-started/access-to-the-user-interface.md "mention")
 
 In order to connect the Hydrom to Brewblox, a Brewblox server must first be set up.
@@ -23,7 +23,7 @@ In order to connect the Hydrom to Brewblox, a Brewblox server must first be set 
 {% embed url="https://brewblox.netlify.app/user/startup.html#what-you-will-need" %}
 A Pi with Brewblox was set up
 {% endembed %}
-{% endhint %}
+:::
 
 ## Adding Hydrom to BrewBlox
 
@@ -44,13 +44,13 @@ There are two basic ways to connect the Hydrom to Brewblox.
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../.gitbook/assets/Bilder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Select "Service" 
 
 ### Step 3: Activate Brewblox
 
-![Change the setting of the Hydrom](../.gitbook/assets/Folie19.png)
+![Change the setting of the Hydrom](../../docs/Pics/English_Pic19.png)
 
 **Server Address:** Name or IP of the Brewblox/MQTT broker
 
@@ -81,7 +81,7 @@ In order for the Hydrom to transmit the data reliably, a DeepSleep time must be 
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](../.gitbook/assets/Save.png)
+![Pressing the "save" button saves the settings.](../../docs/Pics/English_Pic6.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
@@ -91,7 +91,7 @@ A second way to check the saving is to reload the page (all modern browsers offe
 
 By activating this button, you can check whether the Hydrom has a connection to the service and to the individual parts of the service. If you now click on "Save", the set services are executed once and the page is reloaded. On the new page you can see whether the servers are accessible and the ports are open.
 
-![Sending a test message can greatly simplify the process of checking the connection.](../.gitbook/assets/TestMessage.png)
+![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
 
 ### activate DeepSleep
 
@@ -107,34 +107,34 @@ Activating DeepSleep is mandatory for the hydrom to be able to send data. If Dee
 
 In order to view the measured values of the Hydrom, a dashboard must first be created if one does not already exist.
 
-![Create Brewblox Dashboard](../.gitbook/assets/Brewblox\_Server\_Hydrom\_new\_Dashboard.png)
+![Create Brewblox Dashboard](../../docs/Pics/Brewblox\_Server\_Hydrom\_new\_Dashboard.png)
 
 ### Add widget
 
 The measured values of the Hydrom can be visualised via a graph. To do this, a widget must first be created.
 
-![](<../.gitbook/assets/Brewblox\_Server\_Hydrom\_Select\_Dashboard\_Content (1).png>)
+![](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Select\_Dashboard\_Content (1).png>)
 
 ### Add graph
 
 Now add a graph to this widget
 
-![Select Graph as widget to visualise the readings of the Hydrom](<../.gitbook/assets/Brewblox\_Server\_Hydrom\_Widget\_Selection (1) (1) (1) (1).png>)
+![Select Graph as widget to visualise the readings of the Hydrom](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Widget\_Selection (1) (1) (1) (1).png>)
 
 Click on "Create" to create this widget.
 
-![Confirm selection](<../.gitbook/assets/Brewblox\_Server\_Hydrom\_Widget\_Graph (1).png>)
+![Confirm selection](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Widget\_Graph (1).png>)
 
 ### Activating the Hydrom
 
 Adding the graph is not enough to display the measured values of the Hydrom. The measured values of the Hydrom do not have to be made visible. To do this, go to the top right corner and click on the two triangles to activate the settings of the graph.
 
-![Make settings of the graph](../.gitbook/assets/Brewblox\_Server\_Hydrom\_Graph\_Settings.png)
+![Make settings of the graph](../../docs/Pics/Brewblox\_Server\_Hydrom\_Graph\_Settings.png)
 
 In the settings of the graph, the filter has to be activated. So practically, which measured values do I want to see. For clarity, it is recommended to activate only the required measured values here.
 
-![Activate the filters as needed](../.gitbook/assets/Brewblox\_Server\_Hydrom\_Filter.png)
+![Activate the filters as needed](../../docs/Pics/Brewblox\_Server\_Hydrom\_Filter.png)
 
 At the end you see at least the test measurement after which the hydrom was put to sleep but also the measured values in the set interval.
 
-![End result: The hydrom delivers measured values to the graph](<../.gitbook/assets/Brewblox\_Server\_Hydrom\_Graph (1) (1) (1) (1) (3).png>)
+![End result: The hydrom delivers measured values to the graph](<../../docs/Pics/Brewblox\_Server\_Hydrom\_Graph (1) (1) (1) (1) (3).png>)

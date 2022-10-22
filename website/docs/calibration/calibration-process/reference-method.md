@@ -11,7 +11,7 @@ description: >-
 
 
 
-{% hint style="success" %}
+:::tip
 **Precondition:**
 
 1. User interface Access\
@@ -19,7 +19,7 @@ description: >-
 2. Equipment needed:
    1. Density verification meter
    2. Reference liquid (can be beer in the brewing process)
-{% endhint %}
+:::
 
 1. Place the hydrometer in the reference liquid. Open the reference calibration by clicking on "Navigation"-->"Calibration"--> "Calibration"--> Method.
 2. Start the calibration by pressing the green button at the bottom "Start".
@@ -40,4 +40,4 @@ Please save the formula that was calculated for the calibration externally. If t
    [Broken link](broken-reference "mention")
 2. note the formula which can be found under "Calibration" --> "Costum Form\
    [manually-change-the-formula.md](manually-change-the-formula.md "mention")
-{% endhint %}
+:::

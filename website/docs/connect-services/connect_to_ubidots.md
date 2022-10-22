@@ -13,7 +13,7 @@ coverY: 0
 
 
 
-{% hint style="success" %}
+:::tip
 **Prerequisite:**
 
 1. **Access to the user interface**\
@@ -21,7 +21,7 @@ coverY: 0
 2. **Ubidots user account available**\
    An account was created with the cloud provider ubidots. At the time of writing, there is a free account for non-commercial use.\
    https://industrial.ubidots.com/accounts/signup\_industrial/
-{% endhint %}
+:::
 
 ## Add the hydrom to Ubidots
 
@@ -29,19 +29,19 @@ coverY: 0
 
 The device management is located at the top center. Here a new device must be added
 
-![](<../.gitbook/assets/Screenshot 2021-08-07 at 22-06-10 Ubidots Devices.png>)
+![](<../../docs/Pics/English_Pic28.png>)
 
 ### Add Blank Device
 
 It is really important that you enter the device name here. E.g. "Hydrom001" in the default configuration
 
-![Choose Device Name](<../.gitbook/assets/Screenshot 2021-08-07 at 22-07-42 Ubidots Devices (1).png>)
+![Choose Device Name](<../../docs/Pics/English_Pic29.png>)
 
 ### Copy the token
 
 After adding the device, the device must be opened and then the token must be copied (see red marking).
 
-![Copy Ubidots Token](<../.gitbook/assets/Screenshot 2021-08-07 at 22-18-04 Ubidots Devices (1).png>)
+![Copy Ubidots Token](<../../docs/Pics/English_Pic31.png>)
 
 ## Insert Service settings in Hydrom
 
@@ -54,7 +54,7 @@ Otherwise the Hydrom must still be started.
 To access the menu bar you have to click on the three lines in the upper left corner. (See arrow)\
 Then the menu bar will open.
 
-<figure><img src="../.gitbook/assets/Bilder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../docs/Pics/English_Pic5" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Select "Service" 
 
@@ -62,7 +62,7 @@ Then the menu bar will open.
 
 On the "Service" page, the Ubidots service must be activated.
 
-![Activating the Ubidots interface and entering the token](<../.gitbook/assets/Screenshot 2021-09-06 at 21-31-15 Service.png>)
+![Activating the Ubidots interface and entering the token](<../../docs/Pics/English_Pic40.png>)
 
 ### additional settings
 
@@ -82,7 +82,7 @@ In order for the Hydrom to transmit the data reliably, a DeepSleep time must be 
 
 Saving the data is important because it is the only way to connect to the service after waking up from DeepSleep.
 
-![Pressing the "save" button saves the settings.](../.gitbook/assets/Save.png)
+![Pressing the "save" button saves the settings.](../../docs/Pics/English_Pic6.png)
 
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
@@ -92,7 +92,7 @@ A second way to check the saving is to reload the page (all modern browsers offe
 
 By activating this button, you can check whether the Hydrom has a connection to the service and to the individual parts of the service. If you now click on "Save", the set services are executed once and the page is reloaded. On the new page you can see whether the servers are accessible and the ports are open.
 
-![Sending a test message can greatly simplify the process of checking the connection.](../.gitbook/assets/TestMessage.png)
+![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
 
 ### activate DeepSleep
 
