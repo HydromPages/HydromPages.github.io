@@ -26,9 +26,6 @@ coverY: 0
 
 ## Add the hydrom to the Brewfather
 
-<iframe width="675" height="380" src="https://www.youtube.com/watch?v=qyZF_d4DAns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ### Activate "Custom Stream"
 
 Open the Brewfather app and navigate to the settings. There you activate the device "Custom Stream".
