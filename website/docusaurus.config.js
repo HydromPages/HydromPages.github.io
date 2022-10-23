@@ -70,13 +70,20 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Instruction',
 
           },
           {
             type: 'localeDropdown',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'FAQ',
+
+          },
           // Please keep GitHub link to the right for consistency.
           {
             href: 'https://github.com/HydromPages/HydromPages.github.io',
