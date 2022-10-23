@@ -25,6 +25,9 @@ coverY: 0
 :::
 
 ## Add the hydrom to the Brewfather
+This viedeo shows the setup step by step:
+https://www.youtube.com/watch?v=qyZF_d4DAns
+
 
 ### Activate "Custom Stream"
 
