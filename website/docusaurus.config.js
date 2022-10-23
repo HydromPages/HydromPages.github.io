@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Shop',
-                to: 'hydrom.io',
+                href: 'https://stackoverflow.com/questions/tagged/hydrom',
               },
             ],
           },
