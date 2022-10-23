@@ -96,15 +96,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Learn',
+            title: 'Links',
             items: [
               {
-                label: 'Style Guide',
-                to: 'docs/',
-              },
-              {
-                label: 'Second Doc',
-                to: 'docs/doc2',
+                label: 'Shop',
+                to: 'hydrom.io',
               },
             ],
           },
@@ -113,15 +109,19 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/xxx',
+                href: 'https://stackoverflow.com/questions/tagged/hydrom',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/xxx',
+                href: 'https://twitter.com/Hydromio1',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/xxx',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/Hydromio',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/hydrom_io/',
               },
             ],
           },
@@ -144,19 +144,11 @@ const config = {
             items: [
               {
                 label: 'Privacy',
-                href: 'https://opensource.fb.com/legal/privacy/',
+                href: 'https://hydrom.io/policies/privacy-policy',
               },
               {
                 label: 'Terms',
-                href: 'https://opensource.fb.com/legal/terms/',
-              },
-              {
-                label: 'Data Policy',
-                href: 'https://opensource.fb.com/legal/data-policy/',
-              },
-              {
-                label: 'Cookie Policy',
-                href: 'https://opensource.fb.com/legal/cookie-policy/',
+                href: 'https://hydrom.io/policies/terms-of-service',
               },
             ],
           },
