@@ -84,6 +84,12 @@ const config = {
             label: 'FAQ',
 
           },
+          {
+            href: 'https://hydrom.canny.io/feature-requrest',
+            label: 'Feature Request',
+            position: 'left',
+          },
+          
           // Please keep GitHub link to the right for consistency.
           {
             href: 'https://github.com/HydromPages/HydromPages.github.io',
