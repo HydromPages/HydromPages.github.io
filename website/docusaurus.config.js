@@ -172,4 +172,24 @@ const config = {
     }),
 };
 
+async function createConfig() {
+  const FeatureRequestsPlugin = (
+    await import('./src/plugins/featureRequests/FeatureRequestsPlugin.mjs')
+  ).default;
+//  const configTabs = (await import('./src/remark/configTabs.mjs')).default;
+  //  const lightTheme = (await import('./src/utils/prismLight.mjs')).default;
+ //   const darkTheme = (await import('./src/utils/prismDark.mjs')).default;
+ //   const katex = (await import('rehype-katex')).default;
+  config.plugins?.push(FeatureRequestsPlugin);
+  // @ts-expect-error: we know it exists, right
+  config.presets[0][1].docs.remarkPlugins.push(configTabs);
+  // @ts-expect-error: we know it exists, right
+  config.themeConfig.prism.theme = lightTheme;
+  // @ts-expect-error: we know it exists, right
+  config.themeConfig.prism.darkTheme = darkTheme;
+  // @ts-expect-error: we know it exists, right
+  config.presets[0][1].docs.rehypePlugins.push(katex);
+  return config;
+}
+
 module.exports = config;
