@@ -7,7 +7,7 @@ sidebar_position: 1
 
 
 
-{% hint style="danger" %}
+:::danger
 ATTENTION! If you have entered incorrect Name for the Hydrom, you will not be able to connect to the Hydrom via existing Network. You will then need to use the Configuration-Wifi.
 
 If the setting is incorrect, you can reset the Hydrom as described here:
@@ -15,7 +15,7 @@ If the setting is incorrect, you can reset the Hydrom as described here:
 [#reset-by-the-button](factory-reset.md#reset-by-the-button "mention")
 :::
 
-{% hint style="info" %}
+:::info
 Changing the Hydrom name has the following effect:
 
 1. The user interface is not accessed via [http://hydrom001/](http://hydrom001) as described in the chapter[#connect-to-the-hydrom-via-browser](../docs/Getting%20Started/establish-first-connection-to-the-hydrom/access-to-the-user-interface.mdx#connect-to-the-hydrom-via-browser "mention"), but now via http://\<own\_choosen\_name>/.

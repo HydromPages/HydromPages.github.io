@@ -20,9 +20,8 @@ To make this setting you must have access to the user interface. If this is not 
 
 In order to connect the Hydrom to Brewblox, a Brewblox server must first be set up.
 
-{% embed url="https://brewblox.netlify.app/user/startup.html#what-you-will-need" %}
+[https://brewblox.netlify.app/user/startup.html#what-you-will-need](https://brewblox.netlify.app/user/startup.html#what-you-will-need)  
 A Pi with Brewblox was set up
-{% endembed %}
 :::
 
 ## Adding Hydrom to BrewBlox

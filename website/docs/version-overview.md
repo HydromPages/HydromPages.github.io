@@ -6,22 +6,21 @@ sidebar_position: 7
 # Firmware
 
 Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image installieren können, erfahren Sie hier:
-
-{% content-ref url="other-settings/firmware-update.md" %}
 [firmware-update.md](other-settings/firmware-update.md)
+
 
 
 {% file src="../../docs/Pics/firmware_1.2.16.bin" %}
 
 ## Version 1.2.16 - 2022-4-05 
 
-### &#x20;Fixed
+### Fixed
 
 * Plainwater calibration was repaired.
 
 ## Version 1.2.15 - 2022-4-03 
 
-### &#x20;Fixed
+### Fixed
 
 * Stabilisation of the position sensor measurements.
 * Ubidots Interface\
@@ -38,7 +37,7 @@ Hier finden Sie die neueste Firmware. Wie Sie die Firmware und das Image install
 * Wifi reset 
   If the reset button is pressed for longer than 3 seconds, the Hydrom is started with reset Wifi settings.
 
-### &#x20;Fixed
+### Fixed
 
 * Brewfather Server\&Port is now stored persistently. 
   The Brewfather Server address & port has been made changeable.

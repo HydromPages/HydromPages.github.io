@@ -40,7 +40,7 @@ Then the menu bar will open.
 * **Fahrenheit**
 * **Kelvin**
 
-{% hint style="info" %}
+:::info
 The set units do not affect the services.
 
 This means that the data sent will always be consistent, no matter what unit is set.
