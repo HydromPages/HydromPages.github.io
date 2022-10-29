@@ -192,4 +192,4 @@ async function createConfig() {
   return config;
 }
 
-module.exports = config;
+module.exports = createConfig;
