@@ -12,7 +12,7 @@ import Layout from '@theme/Layout';
 import cannyScript from './cannyScript';
 import styles from './styles.module.css';
 
-const BOARD_TOKEN = '054e0e53-d951-b14c-7e74-9eb8f9ed2f91';
+const BOARD_TOKEN = '1a0a6e81-5778-2666-7bfa-546d1030a5fd';
 
 export default function FeatureRequests({
   basePath,
@@ -30,7 +30,7 @@ export default function FeatureRequests({
   }, [basePath]);
 
   return (
-    <Layout title="Feedback" description="Docusaurus 2 Feature Requests page">
+    <Layout title="Feedback" description="Hydrom Feature Requests page">
       <main
         className={clsx('container', 'margin-vert--lg', styles.main)}
         data-canny
