@@ -180,15 +180,15 @@ async function createConfig() {
   //  const lightTheme = (await import('./src/utils/prismLight.mjs')).default;
  //   const darkTheme = (await import('./src/utils/prismDark.mjs')).default;
  //   const katex = (await import('rehype-katex')).default;
-  config.plugins?.push(FeatureRequestsPlugin);
+ config.plugins?.push(FeatureRequestsPlugin);
   // @ts-expect-error: we know it exists, right
-  config.presets[0][1].docs.remarkPlugins.push(configTabs);
+    // config.presets[0][1].docs.remarkPlugins.push(configTabs);
   // @ts-expect-error: we know it exists, right
-  config.themeConfig.prism.theme = lightTheme;
+    // config.themeConfig.prism.theme = lightTheme;
   // @ts-expect-error: we know it exists, right
-  config.themeConfig.prism.darkTheme = darkTheme;
+    // config.themeConfig.prism.darkTheme = darkTheme;
   // @ts-expect-error: we know it exists, right
-  config.presets[0][1].docs.rehypePlugins.push(katex);
+  // config.presets[0][1].docs.rehypePlugins.push(katex);
   return config;
 }
 
