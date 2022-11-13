@@ -8,7 +8,7 @@ sidebar_position: 1
 
 
 :::danger
-ATTENTION! If you have entered incorrect Name for the Hydrom, you will not be able to connect to the Hydrom via existing Network. You will then need to use the Configuration-Wifi.
+If you have entered incorrect Name for the Hydrom, you will not be able to connect to the Hydrom via existing Network. You will then need to use the Configuration-Wifi.
 
 If the setting is incorrect, you can reset the Hydrom as described here:
 
