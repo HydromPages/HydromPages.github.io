@@ -58,7 +58,7 @@ Then the menu bar will open.
 
 ## Step 2: Select "Service" 
 
-### Step 3: Activate Ubidots and change the settings
+## Step 3: Activate Ubidots and change the settings
 
 On the "Service" page, the Ubidots service must be activated.
 

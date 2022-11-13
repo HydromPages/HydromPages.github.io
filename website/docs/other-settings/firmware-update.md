@@ -30,7 +30,7 @@ Then the menu bar will open.
 
 ### Step 2: Select "Update" 
 
-### Step 3: Select the Update device 
+## Step 3: Select the Update device 
 You can download the updates from our download section, unzip the file and select it in the web interface.
 
 ### Step 4: Start the Update 

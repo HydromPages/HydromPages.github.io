@@ -54,7 +54,7 @@ Then the menu bar will open.
 
 ## Step 2: Select "Service" 
 
-### Step 3: Activate Brewfather and change the settings
+## Step 3: Activate Brewfather and change the settings
 
 On the "Service" page, the Brewfather service must be activated.
 
