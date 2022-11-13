@@ -91,7 +91,6 @@ Saving the data is important because it is the only way to connect to the servic
 You can check whether the saving was successful by looking at the settings file at http://hydrom001/settings.json/. to check if the save was successful. This file is the permanent memory of the Hydrom.
 
 A second way to check the saving is to reload the page (all modern browsers offer this Feature). If the properties are then reloaded, the hydrom has accepted them, otherwise the old settings are reloaded.
-
 :::
 
 :::info
@@ -102,5 +101,15 @@ By activating this button, you can check whether the Hydrom has a connection to 
 ![Sending a test message can greatly simplify the process of checking the connection.](../../docs/Pics/English_Pic7.png)
 :::
 
+:::info
+### Put Hydrom to DeepSleep
+
+To ensure that the device sends measured values to the Service in the set interval as intended, the Hydrom must be put into deep sleep.
+
+There are two ways to put the Hydrom into deep sleep.
+Turning the ***power switch off and on***  is the easiest way to put the Hydrom into deep sleep.
+The alternative way is to put it to sleep ***via the UI***.
+To do this, open the navigation bar and go to the "DeepSleep" tab.
+:::
 
 
