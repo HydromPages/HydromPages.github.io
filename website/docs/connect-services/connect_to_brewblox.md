@@ -11,8 +11,6 @@ coverY: 0
 
 # Connect the Hydrom to Brewblox
 
-
-
 ## Precondition
 
 :::tip
@@ -24,7 +22,6 @@ In order to connect the Hydrom to Brewblox, a Brewblox server must first be set 
 A Pi with Brewblox was set up
 :::
 
-## Adding Hydrom to BrewBlox
 
 The Hydrom is natively supported by Brewblox. This means that once the hydrom is set up, the readings are automatically sent to the server and can be used. Multiple devices can also be used in parallel by customising the name of the Hydrom.
 
@@ -114,21 +111,21 @@ To do this, open the navigation bar and go to the "DeepSleep" tab.
 
 
 
-## Configuration of the Hydrom in the Brewblox
+# Configuration of the Hydrom in the Brewblox
 
-### Add a dashboard
+## Add a dashboard
 
 In order to view the measured values of the Hydrom, a dashboard must first be created if one does not already exist.
 
 ![Create Brewblox Dashboard](../../docs/Pics/English_Pic20.png)
 
-### Add widget
+## Add widget
 
 The measured values of the Hydrom can be visualised via a graph. To do this, a widget must first be created.
 
 ![](../../docs/Pics/English_Pic21.png)
 
-### Add graph
+## Add graph
 
 Now add a graph to this widget
 
@@ -138,7 +135,7 @@ Click on "Create" to create this widget.
 
 ![Confirm selection](../../docs/Pics/English_Pic23.png)
 
-### Activating the Hydrom
+## Activating the Hydrom
 
 Adding the graph is not enough to display the measured values of the Hydrom. The measured values of the Hydrom do not have to be made visible. To do this, go to the top right corner and click on the two triangles to activate the settings of the graph.
 
