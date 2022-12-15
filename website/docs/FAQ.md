@@ -37,10 +37,21 @@ TBC
 TBC
 </details>
 
-<details><summary>what if i do not use deepsleep mode and use webUi to read gravity when i need? Does the battery last for one fermentation?</summary>
-TBC
+<details><summary>If I understand correctly,sending data automatically by interval only works if I put the hydrom in deep sleep in the web interface.</summary>.
+That is completely correct what you say.
+The hydrom sends the data only when it is in Deep Sleep.
 </details>
 
-<details><summary>what if i do not use deepsleep mode and use webUi to read gravity when i need? Does the battery last for one fermentation?</summary>
-TBC
+<details><summary>If I turn the hydrom off and on again at the switch, is it also in Deep Sleep?</summary>.
+Exactly right.This will cause a restart and send the readings to the service after the time set
+</details>
+
+<details><summary>Short press activates the web interface, long press activates the access point for configuration?</summary>
+The first part was correct, the second was not.Long press resets the device.
+The hydrom ALWAYS also sets up an access point when the web interface is activated.
+</details>
+
+<details><summary>The default address is chosen unfortunate for me, on 192.168.2.1 sits my router</summary>.
+That should not matter ;)The address is used exclusively when the device is accessed in access point mode.Then there is no router.
+If the device was connected to the WLAN of your router, then the device gets a new address (Specifically for your network) from the DHCP of your router.
 </details>
